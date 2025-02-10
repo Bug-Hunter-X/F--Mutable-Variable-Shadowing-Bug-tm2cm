@@ -1,0 +1,1 @@
+This repository demonstrates a common error in F# related to mutable variables and shadowing.  The `swap` function intends to swap the values of `x` and `y`, but due to how mutable variables work within function scopes, it doesn't achieve the desired result.  The solution demonstrates a correct approach using tuples or references to avoid the shadowing issue.
